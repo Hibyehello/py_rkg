@@ -3,7 +3,7 @@ import pytest
 
 from pathlib import Path
 
-from rkg_py.rkg import rkg_header, Track, Vehicle, Character, Controller_Type, Ghost, Drift
+from py_rkg.rkg import rkg_header, Track, Vehicle, Character, Controller_Type, Ghost, Drift
 
 
 def test_parse_file(file_path="test.rkg"):

@@ -3,7 +3,7 @@ import pytest
 
 from pathlib import Path
 
-from rkg_py.mii import Mii
+from py_rkg.mii import Mii
 
 
 def test_parse_file(file_path="test.rkg"):
